@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print combination of single digit numbers
- * Description: print combination of all single digit numbers with commacommas
+ * Description: print combination of all single digit numbers with commas
  * Return: always 0
  */
 int main(void)
