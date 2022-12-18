@@ -3,10 +3,11 @@
 #include <time.h>
 /**
  * main - determine if number is positive or negative
- * Description: asign a random nmber to the variable n each time it is executed.
+ * Description: assign a rand num to d variable n each time it's executed.
  * Return: 0
  */
-int main(void){
+int main(void)
+{
 	int n;
 
 	srand(time(0));
