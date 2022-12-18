@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - determine if number is positive or negative
+ * Description: program will asign a random nmber to th variable n each time it is executed.
+ * Return a 0
+ */
+
 int main(void)
 {
 	int n;
