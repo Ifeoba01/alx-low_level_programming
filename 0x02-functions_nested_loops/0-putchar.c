@@ -6,6 +6,10 @@
  */
 int main(void)
 {
-	putchar("_putchar");
+	char *s = "_putchar\n";
+	while (*s)
+	{
+		putchar(*s++);
+	}
 	return (0);
 }
