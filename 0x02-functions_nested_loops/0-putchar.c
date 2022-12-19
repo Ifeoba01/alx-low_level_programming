@@ -7,8 +7,13 @@
 int main(void)
 {
 
-	int _putchar(char c);
+	char pc = "_putchar";
+	while (pc)
+	{
+		_putchar(pc);
+		pc++:
+	}
 
-	_putchar("_putchar\n");
+	_putchar("\n");
 	return (0);
 }
