@@ -6,14 +6,6 @@
  */
 int main(void)
 {
-
-	char *pc = "_putchar";
-	while (*pc)
-	{
-		_putchar(*pc);
-		pc++:
-	}
-
-	_putchar('\n');
+	putchar("_putchar");
 	return (0);
 }
