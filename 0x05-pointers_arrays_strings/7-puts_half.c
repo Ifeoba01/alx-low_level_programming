@@ -22,6 +22,6 @@ void puts_half(char *str)
 	}
 	if (max % 2 == 1)
 		n = (max - 1) / 2;
-		_putchar(str[n]);
+	_putchar(str[n]);
 	_putchar('\n');
 }
