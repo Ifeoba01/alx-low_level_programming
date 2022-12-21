@@ -6,11 +6,14 @@
  */
 int main(void)
 {
-	int i;
-	char *s = "_putchar\n";
-	for (i = 0; i < (int)sizeof(*s); i++)
+	int i = 0;
+	char text[10] = "_putchar";
+	
+	for (i = 0; i < 9; i++)
 	{
-		putchar(*s + i);
+		_putchar(text[i]);
 	}
+	_putchar('\n');
+
 	return (0);
 }
