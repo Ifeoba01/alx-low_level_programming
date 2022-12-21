@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * cap-string - capitalzes all word of a string
+ * cap_string - capitalzes all word of a string
  * @s: string
  * Return: string array
  */
@@ -19,7 +19,7 @@ char *cap_string(char *s)
 			else if (s[previous] >= 9 && s[previous] <= 10)
 				s[i] = s[i] - 32;
 			else if (s[previous] >= 32 && s[previous] <= 34)
-				s[i] s[i] - 32;
+				s[i] = s[i] - 32;
 			else if (s[previous] >= 40 && s[previous] <= 41)
 				s[i] = s[i] - 32;
 			else if (s[previous] == 46)
