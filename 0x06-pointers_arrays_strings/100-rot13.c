@@ -6,7 +6,7 @@
  */
 char *rot13(char *s)
 {
-	char offste, *r = s;
+	char offset, *r = s;
 
 	while (*s)
 	{
