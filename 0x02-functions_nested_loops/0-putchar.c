@@ -6,10 +6,11 @@
  */
 int main(void)
 {
+	int i;
 	char *s = "_putchar\n";
-	while (*s)
+	for (i = 0; i < (int)sizeof(*s); i++)
 	{
-		putchar(*s++);
+		putchar(*s + i);
 	}
 	return (0);
 }
