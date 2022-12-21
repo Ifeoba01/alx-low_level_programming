@@ -2,12 +2,12 @@
 /**
  * leet - encodes a string into 1337
  * @s: string
- * Return: string array
+ * Return: pointer to encoded string
  */
 char *leet(char *s)
 {
 	char *r = s;
-	char a[] = { 'a', 'e', '0', 't', 'l' };
+	char a[] = { 'a', 'e', 'o', 't', 'l' };
 	char n[] = { 4, 3, 0, 7, 1 };
 	int i = 0;
 
@@ -21,5 +21,5 @@ char *leet(char *s)
 		s++;
 	}
 
-	return (s);
+	return (r);
 }
