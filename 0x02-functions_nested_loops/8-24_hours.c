@@ -13,7 +13,7 @@ void jack_bauer(void)
 	{
 		if (hours_tens == '2')
 		{
-			hours_max - '4';
+			hours_max = '4';
 		}
 		hours_ones = '0';
 		while (hours_ones < hours_max)
