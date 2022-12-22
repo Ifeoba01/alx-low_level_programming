@@ -12,7 +12,7 @@ int _isalpha(int c)
 	}
 	else if (c >= 'A' && c <= 'Z')
 	{
-		returm (1);
+		return (1);
 	}
 	else
 		return (0);
