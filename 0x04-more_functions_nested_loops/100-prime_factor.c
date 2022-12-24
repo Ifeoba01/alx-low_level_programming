@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include "main.h"
 
 /**
@@ -9,23 +8,23 @@
 
 int main(void)
 {
-	unsigned long num = 612852475143;
-	unsigned long largestPrime = -1;
-	unsigned long i;
+	long int prime = 612852475143;
+	long int quotient = prime;
+	long int divisor = 2;
 
-	while (num % 2 == 0)
-		num /= 2;
-
-	for (i = 3; i <= sqrt(num); i += 2)
+	while (quotient != divisor)
 	{
-		while (num % i == 0)
+		if (quotient % divisor == 0)
 		{
-			largetstPrime = i;
-			num /= i;
+			quotient = quotient / divisor;
+		}
+		else
+		{
+			divisor++;
 		}
 	}
-	if (largestPrime < Num)
-		largestPrime = num;
-	printf("%lu\n", largestPrime);
+
+	printf("%li\n", quotient);
+
 	return (0);
 }
