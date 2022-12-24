@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include "main.h"
 
 /**
  * main - print largest prime number factor
@@ -9,8 +10,6 @@
 int main(void)
 {
 	unsigned long num = 612852475143;
-	int i, j;
-
 	unsigned long largestPrime = -1;
 	unsigned long i;
 
