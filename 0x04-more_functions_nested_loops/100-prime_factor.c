@@ -9,7 +9,9 @@
 int main(void)
 {
 	unsigned long num = 612852475143;
-	unsigned long largestprime = -1;
+	int i, j;
+
+	unsigned long largestPrime = -1;
 	unsigned long i;
 
 	while (num % 2 == 0)
@@ -25,6 +27,6 @@ int main(void)
 	}
 	if (largestPrime < Num)
 		largestPrime = num;
-	printf("%lu\n", largestPrice);
+	printf("%lu\n", largestPrime);
 	return (0);
 }
