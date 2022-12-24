@@ -1,8 +1,7 @@
 #include "main.h"
-#include <math.h>
 
 /**
- * power - prints an integer
+ * print_number - prints an integer
  * @n: integer
  * Return: void
  */
